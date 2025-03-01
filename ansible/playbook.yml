@@ -1,0 +1,5 @@
+- hosts: HNG_stage4
+  become: true
+  roles:
+    - dependencies
+    - deployment
